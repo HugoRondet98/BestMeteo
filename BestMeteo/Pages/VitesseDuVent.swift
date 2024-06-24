@@ -13,6 +13,6 @@ struct WindSpeedView: View {
             Text("Vitesse du vent !")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .background(Color.green)
+        .background(Color.purple)
     }
 }
