@@ -9,6 +9,10 @@ import SwiftUI
 
 struct HumidityView: View {
     var body: some View {
-        Text("Humidité !")
+        VStack {
+            Text("Humidité !")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .background(Color.red)
     }
 }

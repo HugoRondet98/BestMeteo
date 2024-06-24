@@ -12,7 +12,7 @@ struct HomeView: View {
     @State private var navigateToNewPage = false
     
     var body: some View {
-//        NavigationStack {
+        NavigationStack {
             GeometryReader { geometry in
                 //BACKGROUND
                 BackgroundView(geometry: geometry, img: "Neige")
@@ -44,7 +44,7 @@ struct HomeView: View {
 //                })
 //                .navigationDestination(isPresented: $navigateToNewPage, destination: {IndiceUvView()})
             }
-//        }
+        }
     }
 }
 

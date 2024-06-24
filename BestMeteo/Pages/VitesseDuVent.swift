@@ -9,6 +9,10 @@ import SwiftUI
 
 struct WindSpeedView: View {
     var body: some View {
-        Text("Vitesse du vent !")
+        VStack {
+            Text("Vitesse du vent !")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .background(Color.green)
     }
 }

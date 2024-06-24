@@ -9,6 +9,10 @@ import SwiftUI
 
 struct IndiceUvView: View {
     var body: some View {
-        Text("Indice UV !")
+        VStack {
+            Text("Indice UV !")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .background(Color.yellow)
     }
 }
