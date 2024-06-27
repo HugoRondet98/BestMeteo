@@ -9,16 +9,12 @@ import SwiftUI
 
 struct IndiceUV: View {
     
-    let uv: String
-    
-    init(uv: String) {
-        self.uv = uv
-    }
+    let pressure: String
     
     var body: some View {
         HStack {
             Image(systemName: "sun.max.trianglebadge.exclamationmark.fill")
-            Text(uv)
+            Text(pressure)
         }
         .frame(maxWidth: 70, maxHeight: 30)
         .background(Color.black.opacity(0.4))
